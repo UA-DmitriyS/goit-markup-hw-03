@@ -1,0 +1,239 @@
+:root {
+  --text-color: #757575;
+  --title-text-color: #212121;
+  --logo-text-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  text-decoration: none;
+}
+/* =====LOGO COLOR===== */
+.logo-nav {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.logo {
+  color: var(--logo-text-color);
+}
+/* ==========header======== */
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.nav-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--logo-text-color);
+}
+.heder-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc (16/14);
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.heder-tel:hover,
+.heder-tel:focus {
+  color: var(--logo-text-color);
+}
+.heder-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc (16/14);
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.heder-mail:hover,
+.heder-mail:focus {
+  color: var(--logo-text-color);
+}
+/* =============hero========= */
+.hero {
+}
+.hero-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.btn-hero {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  cursor: pointer;
+  background-color: var(--logo-text-color);
+  border: none;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+/* ================adv============ */
+
+.adv-title {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--title-text-color);
+}
+.adv-text {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/* ================about============== */
+.about-title {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+/* ==============team================= */
+.team-title {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.team-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--text-color);
+}
+/* ===============footer=============== */
+.ftr {
+  background-color: #2f303a;
+}
+.logo-ftr {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--logo-text-color);
+}
+
+.logo-ftr-part {
+  color: #ffffff;
+}
+.map {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.f-tel {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.f-mail {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.f-tel:hover,
+.f-tel:focus {
+  color: var(--logo-text-color);
+}
+.f-mail:hover,
+.f-mail:focus {
+  color: var(--logo-text-color);
+}
+.map:hover,
+.map:focus {
+  color: var(--logo-text-color);
+}
+
+.hero-titleport {
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+
+  color: var(--title-text-color);
+}
+
+.hport {
+  display: none;
+}
+.text-titleport {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+
+  color: var(--text-color);
+}
+.btn-portf {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  border: none;
+  color: #212121;
+}
+.btn-portf:hover,
+.btn-portf:focus {
+  color: #ffffff;
+  background-color: var(--logo-text-color);
+}
