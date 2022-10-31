@@ -116,7 +116,7 @@ img {
 }
 .contacts {
   display: inline-flex;
-  /* margin-left: auto; */
+  margin-left: auto;
 }
 .contacts.heder-cont:last-child {
   margin-left: 50px;
@@ -220,6 +220,7 @@ img {
   padding-bottom: 30px;
 }
 .team-title {
+  margin-bottom: 50px;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
