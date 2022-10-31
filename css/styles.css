@@ -115,8 +115,8 @@ img {
   color: var(--logo-text-color);
 }
 .contacts {
-  display: flex;
-  margin-left: auto;
+  display: inline-flex;
+  /* margin-left: auto; */
 }
 .contacts.heder-cont:last-child {
   margin-left: 50px;
@@ -124,10 +124,14 @@ img {
 
 /* =============hero========= */
 .hero {
+  padding-bottom: 200px;
+  padding-top: 200px;
   text-align: center;
   background-color: #2f303a;
 }
 .hero-title {
+  width: 696px;
+  margin: 0 auto;
   margin-bottom: 30px;
   font-family: "Roboto";
   font-style: normal;
@@ -163,6 +167,9 @@ img {
   display: flex;
   gap: 30px;
 }
+.adv-item {
+  width: 270px;
+}
 .adv-title {
   margin-bottom: 10px;
   font-size: 14px;
@@ -173,7 +180,6 @@ img {
   color: var(--title-text-color);
 }
 .adv-text {
-  min-width: 270px;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -209,8 +215,11 @@ img {
   display: flex;
   gap: 30px;
 }
+.teamcard {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .team-title {
-  margin-bottom: 50px;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
@@ -218,7 +227,6 @@ img {
   color: var(--title-text-color);
 }
 .team-name {
-  margin-top: 30px;
   margin-bottom: 10px;
   font-style: normal;
   font-weight: 500;
@@ -231,7 +239,6 @@ img {
 }
 
 .team-text {
-  padding-bottom: 30px;
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
@@ -247,6 +254,7 @@ img {
   background-color: #2f303a;
 }
 .logo-ftr {
+  display: block;
   margin-bottom: 20px;
   font-family: "Raleway";
   font-style: normal;
@@ -258,8 +266,6 @@ img {
 }
 
 .logo-ftr-part {
-  margin-top: 60px;
-  margin-bottom: 20px;
   color: #ffffff;
 }
 .map {
@@ -294,6 +300,10 @@ img {
 .f-mail:hover,
 .f-mail:focus {
   color: var(--logo-text-color);
+}
+.ftr-contakt {
+  display: block;
+  margin-top: 9px;
 }
 .map:hover,
 .map:focus {
