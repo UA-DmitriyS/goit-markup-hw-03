@@ -83,7 +83,6 @@ img {
 }
 .nav-list {
   display: flex;
-  margin-right: 344px;
 }
 
 .container-head {
@@ -117,6 +116,7 @@ img {
 .contacts {
   display: inline-flex;
   margin-left: auto;
+  gap: 30px;
 }
 .contacts.heder-cont:last-child {
   margin-left: 50px;
